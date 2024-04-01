@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapiauth"
+version = "0.1.0"
+description = ""
+authors = ["Gutes Tod <jefflol003@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+pyjwt = "^2.8.0"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.29"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
